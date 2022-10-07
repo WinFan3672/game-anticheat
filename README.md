@@ -11,3 +11,9 @@ This anti-cheat rectifies that. It uses a range of techniques to prevent people 
 - Clone this repo.
 - Edit anticheat.py to include your game. There is a single comment that says "put game under here."
 - That's it. If you have issues with it, make sure you put the game in the right place.
+## Exiting The Game
+Instead of doing `quit()` or `exit()` as you usually do, use `raise ExitError` instead. It will instantly close a CMD window, and nuke an IDE window. 
+# I found a way to bypass it!
+Let me know at `winfan3672@gmail.com` ASAP or create an issue.
+# I want to contribute!
+Leave a pull request or issue. I'll look into it.
