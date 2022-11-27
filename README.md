@@ -1,7 +1,7 @@
 # Python Game Anticheat
 A game anticheat for Python games. 
 # What Is It
-In a lot of IDEs that support Python, most notably IDLE [the default, in-built one], exiting the game would jump to the interpreter instead. 
+In a lot of IDEs that support Python, most notably IDLE [the default, in-built one], exiting the game would enter the shell rather than exiting. 
 As a result, one could modify a variable and then call a subroutine and jump back into the game. 
 
 This anti-cheat rectifies that. It uses a range of techniques to prevent people from getting to the terminal in the first place, and even nuking it by the time they reach it, so that they cannot jump back into the game, since the game would be gone. 
